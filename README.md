@@ -8,6 +8,7 @@ MySQL	     5.7
 Redis      	 5.0.7
 JDK	         8 
 Maven   	 3.9.12
+Node        10.16.3
 
 
 目录结构
@@ -19,6 +20,7 @@ Maven   	 3.9.12
 └── redis
     ├── data
     └── conf
+
 
 部署方式
 
