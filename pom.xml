@@ -16,14 +16,18 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
+        <mybatis-plus.version>3.2.0</mybatis-plus.version>
+        <lombook.version>1.18.8</lombook.version>
+        <apache-http-core.version>4.4.12</apache-http-core.version>
+        <commons-lang.version>2.6</commons-lang.version>
     </properties>
 
     <modules>
-        <module>moon-store-oms</module>
-        <module>moon-store-ums</module>
-        <module>moon-store-pms</module>
-        <module>moon-store-wms</module>
-        <module>moon-store-sms</module>
+        <module>moon-store-coupon</module>
+        <module>moon-store-member</module>
+        <module>moon-store-order</module>
+        <module>moon-store-product</module>
+        <module>moon-store-ware</module>
         <module>renren-fast</module>
     </modules>
 
