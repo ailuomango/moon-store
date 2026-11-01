@@ -21,6 +21,10 @@ Node        10.16.3
     ├── data
     └── conf
 
+Maven
+common中部分依赖声明为了optional，避免公共模块过于臃肿。
+注意：如果需要用到common模块中的工具类，需要手动在pom.xml显式引入对应依赖。
+
 
 部署方式
 

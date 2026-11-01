@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://47.110.252.72:3306/moon_store_pms?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&connectTimeout=5000&socketTimeout=10000
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto

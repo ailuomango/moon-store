@@ -17,9 +17,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
         <mybatis-plus.version>3.2.0</mybatis-plus.version>
-        <lombok.version>1.18.8</lombok.version>
+        <lombok.version>1.18.30</lombok.version>
         <apache-http-core.version>4.4.12</apache-http-core.version>
         <commons-lang.version>2.6</commons-lang.version>
+        <mysql-connector.version>8.0.17</mysql-connector.version>
+        <servlet-api.version>2.5</servlet-api.version>
     </properties>
 
     <modules>
@@ -48,7 +50,7 @@
             </dependency>
             <dependency>
                 <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus</artifactId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${mybatis-plus.version}</version>
             </dependency>
             <dependency>
@@ -62,9 +64,27 @@
                 <version>${apache-http-core.version}</version>
             </dependency>
             <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>${servlet-api.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>commons-lang</groupId>
                 <artifactId>commons-lang</artifactId>
                 <version>${commons-lang.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-extension</artifactId>
+                <version>${mybatis-plus.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
